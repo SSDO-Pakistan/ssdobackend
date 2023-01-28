@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "thematic_areas",
+  "info": {
+    "singularName": "thematic-area",
+    "pluralName": "thematic-areas",
+    "displayName": "ThematicArea",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

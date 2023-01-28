@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "organisation_profiles",
+  "info": {
+    "singularName": "organisation-profile",
+    "pluralName": "organisation-profiles",
+    "displayName": "Organisation Profile"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "file": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

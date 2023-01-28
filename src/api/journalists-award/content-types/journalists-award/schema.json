@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "journalists_awards",
+  "info": {
+    "singularName": "journalists-award",
+    "pluralName": "journalists-awards",
+    "displayName": "Journalists Award ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "upperContent": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "lowerContent": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

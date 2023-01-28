@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "youth_awards",
+  "info": {
+    "singularName": "youth-award",
+    "pluralName": "youth-awards",
+    "displayName": "Youth Award"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "upperContent": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "lowerContent": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

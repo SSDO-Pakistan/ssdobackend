@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publications",
+  "info": {
+    "singularName": "publication",
+    "pluralName": "publications",
+    "displayName": "Publication",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "File": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Research Report",
+        "Monthly VAWC Reports",
+        "Progress Reports",
+        "Event Reports",
+        "Financial Reports",
+        "Newsletters",
+        "Banner",
+        "video",
+        "pressclipping"
+      ]
+    },
+    "navType": {
+      "type": "string"
+    }
+  }
+}

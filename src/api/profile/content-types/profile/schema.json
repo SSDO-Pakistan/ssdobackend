@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profiles",
+  "info": {
+    "singularName": "profile",
+    "pluralName": "profiles",
+    "displayName": "Profile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Profile": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.hero"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Team",
+        "Advisory Board Members",
+        "Board of Directors"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "navType": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
