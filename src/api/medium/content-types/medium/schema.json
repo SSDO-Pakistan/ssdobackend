@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "media",
+  "info": {
+    "singularName": "medium",
+    "pluralName": "media",
+    "displayName": "Media"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Media": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
