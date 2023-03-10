@@ -53,6 +53,9 @@
     },
     "navType": {
       "type": "string"
+    },
+    "PublicationSlider": {
+      "type": "boolean"
     }
   }
 }
