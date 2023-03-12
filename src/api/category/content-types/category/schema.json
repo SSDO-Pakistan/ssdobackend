@@ -46,12 +46,6 @@
       "target": "api::post.post",
       "inversedBy": "categories"
     },
-    "galleries": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::gallery.gallery",
-      "mappedBy": "category"
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"
