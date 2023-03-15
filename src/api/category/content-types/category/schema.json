@@ -49,6 +49,12 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "videos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::video.video",
+      "mappedBy": "category"
     }
   }
 }
