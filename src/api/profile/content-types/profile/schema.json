@@ -14,7 +14,7 @@
   "attributes": {
     "Profile": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "layout.hero"
     },
     "type": {
@@ -31,6 +31,12 @@
     "navType": {
       "type": "string",
       "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "rank": {
+      "type": "integer"
     }
   }
 }
