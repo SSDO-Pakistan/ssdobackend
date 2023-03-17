@@ -25,9 +25,6 @@
         "Board of Directors"
       ]
     },
-    "name": {
-      "type": "string"
-    },
     "navType": {
       "type": "string",
       "required": true
