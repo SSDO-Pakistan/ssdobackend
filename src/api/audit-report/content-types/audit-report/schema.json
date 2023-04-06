@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "audit_reports",
+  "info": {
+    "singularName": "audit-report",
+    "pluralName": "audit-reports",
+    "displayName": "Audit Report"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "rank": {
+      "type": "integer"
+    },
+    "Report": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.report"
+    }
+  }
+}

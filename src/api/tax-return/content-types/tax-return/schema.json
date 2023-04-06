@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tax_returns",
+  "info": {
+    "singularName": "tax-return",
+    "pluralName": "tax-returns",
+    "displayName": "Tax Return",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "Report": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.report"
+    },
+    "rank": {
+      "type": "integer"
+    }
+  }
+}

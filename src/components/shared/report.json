@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_reports",
+  "info": {
+    "displayName": "Report",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    }
+  }
+}

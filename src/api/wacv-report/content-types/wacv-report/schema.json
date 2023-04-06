@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wacv_reports",
+  "info": {
+    "singularName": "wacv-report",
+    "pluralName": "wacv-reports",
+    "displayName": "WACV Report"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "rank": {
+      "type": "integer"
+    },
+    "Report": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.report"
+    },
+    "PublicationSlider": {
+      "type": "boolean"
+    }
+  }
+}
