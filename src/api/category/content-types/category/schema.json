@@ -55,6 +55,24 @@
       "relation": "oneToMany",
       "target": "api::video.video",
       "mappedBy": "category"
+    },
+    "research_reports": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::research-report.research-report",
+      "mappedBy": "category"
+    },
+    "wacv_reports": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::wacv-report.wacv-report",
+      "mappedBy": "category"
+    },
+    "event_reports": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::event-report.event-report",
+      "mappedBy": "category"
     }
   }
 }

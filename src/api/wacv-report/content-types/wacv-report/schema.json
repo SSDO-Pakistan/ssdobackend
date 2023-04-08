@@ -4,7 +4,8 @@
   "info": {
     "singularName": "wacv-report",
     "pluralName": "wacv-reports",
-    "displayName": "WACV Report"
+    "displayName": "WACV Report",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -28,6 +29,12 @@
     },
     "PublicationSlider": {
       "type": "boolean"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "wacv_reports"
     }
   }
 }
