@@ -12,6 +12,7 @@
   "devDependencies": {},
   "dependencies": {
     "@retikolo/drag-drop-content-types": "^1.3.4",
+    "@strapi/plugin-color-picker": "^4.9.0",
     "@strapi/plugin-i18n": "4.9.0",
     "@strapi/plugin-users-permissions": "4.9.0",
     "@strapi/provider-upload-cloudinary": "^4.9.0",

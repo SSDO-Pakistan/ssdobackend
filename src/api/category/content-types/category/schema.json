@@ -15,17 +15,6 @@
     "title": {
       "type": "string"
     },
-    "icon": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "image": {
       "type": "media",
       "multiple": true,
@@ -73,6 +62,14 @@
       "relation": "oneToMany",
       "target": "api::event-report.event-report",
       "mappedBy": "category"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "BackgroundColor": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
     }
   }
 }
