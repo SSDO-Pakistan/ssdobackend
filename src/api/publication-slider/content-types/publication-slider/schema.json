@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "publication_sliders",
+  "info": {
+    "singularName": "publication-slider",
+    "pluralName": "publication-sliders",
+    "displayName": "Publication Slider",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "audit_reports": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::audit-report.audit-report"
+    },
+    "progress_reports": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::progress-report.progress-report"
+    },
+    "event_reports": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::event-report.event-report"
+    },
+    "research_reports": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::research-report.research-report"
+    },
+    "wacv_reports": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::wacv-report.wacv-report"
+    },
+    "tax_returns": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tax-return.tax-return"
+    }
+  }
+}
