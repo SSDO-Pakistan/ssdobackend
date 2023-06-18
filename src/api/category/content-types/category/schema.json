@@ -70,6 +70,12 @@
       "type": "customField",
       "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
       "customField": "plugin::color-picker.color"
+    },
+    "policy_briefs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::policy-brief.policy-brief",
+      "mappedBy": "category"
     }
   }
 }

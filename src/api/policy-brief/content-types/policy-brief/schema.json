@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "policy_briefs",
+  "info": {
+    "singularName": "policy-brief",
+    "pluralName": "policy-briefs",
+    "displayName": "Policy Brief"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "Report": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.report"
+    },
+    "PublicationSlider": {
+      "type": "boolean"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "policy_briefs"
+    }
+  }
+}
