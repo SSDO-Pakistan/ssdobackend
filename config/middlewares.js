@@ -9,7 +9,7 @@ module.exports = [
           "connect-src": ["'self'", "https:"],
           "img-src": ["'self'", "data:", "blob:", "res.cloudinary.com"],
           "media-src": ["'self'", "data:", "blob:", "res.cloudinary.com"],
-          "frame-src": ["https://plausible.io"],
+          "frame-src": ["https://plausible.io" + "&output=embed"],
           upgradeInsecureRequests: null,
         },
       },
