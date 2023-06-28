@@ -1,8 +1,7 @@
 module.exports = ({ env }) => ({
   plausible: {
     config: {
-      sharedLink:
-        "https://plausible.io/share/ssdo.org.pk?auth=_YHA6riQLsyf9PFum9dF8", // Auth disabled when creating link
+      sharedLink: env("PLAUSIBLE_SHARED_LINK"),
     },
   },
   upload: {
