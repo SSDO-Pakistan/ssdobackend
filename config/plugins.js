@@ -1,4 +1,9 @@
 module.exports = ({ env }) => ({
+  plausible: {
+    config: {
+      sharedLink: env("PLAUSIBLE_SHARED_LINK"), // Auth disabled when creating link
+    },
+  },
   upload: {
     config: {
       provider: "cloudinary",

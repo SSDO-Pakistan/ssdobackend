@@ -9482,6 +9482,11 @@ strapi-plugin-navigation@^2.2.11:
     react-router-dom "^5.3.4"
     uuid "^8.3.0"
 
+strapi-plugin-plausible@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-plausible/-/strapi-plugin-plausible-1.0.6.tgz#8edb90372d2239afdb4fc2ae782e32c578dae7ed"
+  integrity sha512-jWDquAqSO6ZOPJotdYEWASoB4YLnhDpH6JCIDUCtXX8ssr+v7lmMu0PKcHfd/dWwoVYjNVNTw6yozNokXXNVkw==
+
 strapi-plugin-populate-deep@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/strapi-plugin-populate-deep/-/strapi-plugin-populate-deep-2.0.0.tgz#dd558eaef2fe47583a63536964b46a945e93f555"
