@@ -8,16 +8,10 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true,
-    "populateCreatorFields": true
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "audit_reports": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::audit-report.audit-report"
-    },
     "progress_reports": {
       "type": "relation",
       "relation": "oneToMany",
@@ -38,10 +32,10 @@
       "relation": "oneToMany",
       "target": "api::wacv-report.wacv-report"
     },
-    "tax_returns": {
+    "policy_briefs": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::tax-return.tax-return"
+      "target": "api::policy-brief.policy-brief"
     }
   }
 }
