@@ -15,9 +15,6 @@
     "title": {
       "type": "string"
     },
-    "status": {
-      "type": "string"
-    },
     "description": {
       "type": "richtext"
     },
@@ -26,14 +23,19 @@
       "targetField": "title"
     },
     "poster": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "Status": {
+      "type": "boolean",
+      "required": false
     }
   }
 }
